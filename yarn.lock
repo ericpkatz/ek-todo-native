@@ -2692,7 +2692,6 @@ expo@^27.0.1:
     react-native-maps "0.21.0"
     react-native-svg "6.2.2"
     react-native-svg-web "^1.0.1"
-    react-native-web-maps "^0.1.0"
     uuid-js "^0.7.5"
 
 express@^4.13.4:
