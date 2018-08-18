@@ -20,6 +20,7 @@
     "test:dev": "npm run test -- --watchAll"
   },
   "jest": {
+    "setupTestFrameworkScriptFile": "./src/setupTests.js",
     "preset": "jest-expo"
   },
   "dependencies": {
