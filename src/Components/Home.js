@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text } from 'react-native';
+import { connect } from 'react-redux';
 
 const _Home = ()=> {
   return (
@@ -9,5 +10,6 @@ const _Home = ()=> {
   );
 };
 
-//export default Home;
 export { _Home }
+
+export default connect()(_Home);
